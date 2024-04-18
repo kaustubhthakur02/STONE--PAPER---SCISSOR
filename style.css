@@ -20,15 +20,15 @@ body{
 }
 #img2 img:hover{
     cursor: pointer;
-    border: 5px solid black;
+    border: 7px solid black;
 }
 #img1 img:hover{
     cursor: pointer;
-    border: 5px solid black;
+    border: 7px solid black;
 }
 #img3 img:hover{
     cursor: pointer;
-    border: 5px solid black;
+    border: 7px solid black;
 }
 #img1 img, #img2 img, #img3 img {
     object-fit: cover;
@@ -36,4 +36,24 @@ body{
     height: 135px;
     border-radius: 50%;
 
+}
+
+.score{
+    text-align: center;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2rem;
+}
+.msg {
+    margin-top: 5rem;
+    background-color: rgb(12, 16, 77);
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    display: inline-block;
+    margin-left: 43%;
+    border-radius: 1rem;
 }
